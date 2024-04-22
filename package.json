@@ -7,10 +7,10 @@
     "tcp"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/btcp.git",
-  "homepage": "https://github.com/bcoin-org/btcp",
+  "repository": "git://github.com/raptoracle/btcp.git",
+  "homepage": "https://github.com/raptoracle/btcp",
   "bugs": {
-    "url": "https://github.com/bcoin-org/btcp/issues"
+    "url": "https://github.com/raptoracle/btcp/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/btcp.js",
@@ -19,7 +19,7 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "devDependencies": {
-    "bmocha": "^2.1.8"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
   },
   "engines": {
     "node": ">=8.0.0"
